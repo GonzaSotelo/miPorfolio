@@ -1,18 +1,24 @@
-.header {
+header {
     display: flex;
     justify-content: space-evenly;
+    z-index: 20;
 }
 
-.imagen-logo {}
+.imagen-logo{
 
+}
 .imagen-logo img {
     max-width: 3em;
-    margin-left: -15em;
+    position: relative;
+    margin-left: -8em;
+    z-index: 20;
 }
 
 .menu-hambur i {
     color: #fff;
-    margin-left: -2em;
+    position: absolute;
+    margin-left: 4.2em;
     font-size: 1.5em;
     margin-top: 0.3em;
+    z-index: 20;
 }

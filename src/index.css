@@ -39,6 +39,9 @@
   filter: blur(60px);
   animation: animBack 6s linear infinite;
 }
+#root {
+  position: relative;
+}
 
 @keyframes animBack {
   0% {

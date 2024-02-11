@@ -42,7 +42,7 @@ Puedes enviarme un mensaje directamente a través del formulario a continuación
 
  
   <div className="contacto-celular">
-  <h2 className="h2-contacto" >Celular : 11 2408-1298</h2>
+  <h2 className="h2-contacto" >Celular: 1124081298</h2>
 <a aria-label="Chat on WhatsApp" href="https://wa.me/541124081298"><img alt="Chat on WhatsApp" src="./../../img/WhatsAppButtonGreenSmall.svg"/>
 </a>
   </div>

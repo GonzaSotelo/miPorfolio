@@ -1,10 +1,9 @@
 .contenedor-modal2 {
     position: absolute;
     width: 92%;
-    height: 50em;
+    height: 36em;
     background-color: rgba(56, 56, 56, 0.8);
-    margin: 2em 0em 0em 0.6em;
-    z-index: 20;
+    margin: 2em 0em 0em 1em;
 }
 
 .modal-difuminado2 {
@@ -35,7 +34,7 @@
     padding: 0px 10px;
 }
 
-.h2-home {
+.h2-contacto {
 
     color: #fff;
 
@@ -61,6 +60,12 @@
     font-size: 16px;
 
     text-align: center;
+
+    margin-top: 4em;
+
+    background-color: rgba(4, 4, 17, 0.733);
+
+    padding-bottom: 1em;
 }
 
 .h2-contacto-form {

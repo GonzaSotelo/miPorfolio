@@ -10,7 +10,7 @@ export const ContactoPage = () => {
 <div className="contenedor-modal2">
 
 <div className="modal-difuminado2">
-  <p >
+  <p className="parrafo-home" >
     
 ¡Hola y bienvenido! <br/>
 
@@ -28,21 +28,21 @@ Puedes enviarme un mensaje directamente a través del formulario a continuación
 </div>
 
 
-<p >
+<p className="parrafo-home" >
 ¡Prometo responder rápidamente y estoy ansioso de conocer más sobre tus ideas y cómo puedo contribuir a tu éxito!
 </p>
 
-<h2>Email : sotelogonzalodamian@gmail.com</h2>
+<h2 className="h2-contacto" >Email : sotelogonzalodamian@gmail.com</h2>
 
 
 
-<p >
+<p className="parrafo-home">
 ¡Gracias por visitar y espero tener noticias tuyas pronto!
 </p>
 
  
   <div className="contacto-celular">
-  <h2>Celular : 11 2408-1298</h2>
+  <h2 className="h2-contacto" >Celular : 11 2408-1298</h2>
 <a aria-label="Chat on WhatsApp" href="https://wa.me/541124081298"><img alt="Chat on WhatsApp" src="./../../img/WhatsAppButtonGreenSmall.svg"/>
 </a>
   </div>
@@ -52,7 +52,7 @@ Puedes enviarme un mensaje directamente a través del formulario a continuación
 
 </div>
 <div className="formulario-contacto">
-  <h2>
+  <h2 className="h2-contacto" >
     o completa este formulario...
   </h2>
   <div className="formulario">

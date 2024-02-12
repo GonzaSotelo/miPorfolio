@@ -1,0 +1,57 @@
+.contenedor-modal3 {
+    position: absolute;
+    width: 92%;
+    height: 36em;
+    background-color: rgba(56, 56, 56, 0.8);
+    margin: 2em 0em 0em 1em;
+}
+
+.modal-difuminado3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.parrafo-about {
+    margin-top: 2em;
+    text-align: center;
+    color: #fff;
+    padding: 1em;
+    font-family: monospace;
+
+}
+
+.h2-about {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-family: monospace;
+    font-size: x-large;
+    margin-top: 2em;
+}
+
+.logos-about {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.logos-about2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.logos {
+    width: 3em;
+    height: 4em;
+}
+
+.logos2 {
+    width: 3.9em;
+    height: 4.2em;
+}
+
+.logos3 {
+    width: 6em;
+    height: 4em;
+}

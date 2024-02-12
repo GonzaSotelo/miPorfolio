@@ -2,7 +2,8 @@
 
 import './App.css'
 import { Header } from './components/Header'
-import { ContactoPage } from './pages/ContactoPage'
+import { AboutPage } from './pages/AboutPage'
+
 
 
 
@@ -13,7 +14,8 @@ function App() {
   return (
     <>
 <Header/>
-<ContactoPage/>
+<AboutPage/>
+
     </>
   )
 }

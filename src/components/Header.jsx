@@ -21,10 +21,10 @@ export const Header = () => {
       </div>
       {menuVisible && (
         <div className="menu">
-          <div className="menu-item">Opción 1</div>
-          <div className="menu-item">Opción 2</div>
-          <div className="menu-item">Opción 3</div>
-          <div className="menu-item">Opción 4</div>
+          <div className="menu-item">Home</div>
+          <div className="menu-item">Sobre Mi</div>
+          <div className="menu-item">Mis Proyectos</div>
+          <div className="menu-item">Contacto</div>
         </div>
       )}
     </div>

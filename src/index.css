@@ -35,7 +35,7 @@
   left: 0;
   width: 100%;
   height: 40px;
-  background: #667c7c;
+  background: rgb(102, 124, 124);
   filter: blur(60px);
   animation: animBack 6s linear infinite;
 }

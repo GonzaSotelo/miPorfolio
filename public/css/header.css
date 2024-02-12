@@ -23,9 +23,9 @@ header {
     z-index: 20;
 }
 .menu {
-    background-color: rgba(43, 12, 136, 0.5);
+    background-color: rgba(102, 124, 124, 0.7);
     position: absolute;
-    margin: 6px 0px 0px -13em;
+    margin: -8px 0px 0px -13em;
     height: 6em;
     width: 18.5em;
     z-index: 50;

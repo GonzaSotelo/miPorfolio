@@ -1,0 +1,37 @@
+.contenedor-modal4 {
+    position: absolute;
+    width: 92%;
+    height: 36em;
+    background-color: rgba(56, 56, 56, 0.8);
+    margin: 2em 0em 0em 1em;
+}
+
+.modal-difuminado4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.h2-proyectos {
+    text-align: center;
+    font-family: monospace;
+    text-transform: uppercase;
+    color: #fff;
+}
+.CardsProyectos {
+
+}
+.cards-proyect {
+    width: 100%;
+    background-color: rgb(92, 100, 100);
+    height: 17em;
+    border: 2 solid rgb(255, 255, 255);
+    border-radius: 0 0 0 0;
+    padding: 1em;
+}
+
+.cards-proyect img {
+    height: 5em;
+    width: 3em;
+}
+
+.botones-cards {}

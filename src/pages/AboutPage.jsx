@@ -12,7 +12,7 @@ export const AboutPage = () => {
      soy desarrolador web Full stack, pero me estoy enfocando
       mas al lado front ya que estudie diseño grafico y es algo
        que me apaciona, estudie en Digital House junto a Fundacion Formar
-       donde aprendi mucho como en tecnologias como en habilidades blandas,
+       donde aprendi mucho en tecnologias como en habilidades blandas,
        tambien estoy formandome de manera autodidacta para seguir creciendo.
        actualmente soy chofer de colectivo y puedo implementar muchas de las habilidades 
        que consegui gracias a este trabajo.    

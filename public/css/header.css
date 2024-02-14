@@ -44,13 +44,13 @@ header {
     .imagen-logo img {
         max-width: 4em;
         position: relative;
-        margin-left: -15em;
+        margin-left: -17em;
         z-index: 20;
     }
     .menu-hambur i {
         color: #fff;
         position: absolute;
-        margin-left: 4.6em;
+        margin-left: 5.2em;
         font-size: 2.3em;
         margin-top: 0.3em;
         z-index: 20;

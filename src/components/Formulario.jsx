@@ -1,58 +1,36 @@
-import { useState } from 'react';
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-const Formulario = () => {
-  const [formData, setFormData] = useState({
-    nombre: '',
-    email: '',
-    mensaje: '',
-  });
+export const Formulario = () => {
+  const form = useRef();
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevData) => ({ ...prevData, [name]: value }));
-  };
-
-  const handleSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
-    // Aquí puedes manejar la lógica de envío del formulario
-    console.log('Datos del formulario:', formData);
+
+    emailjs
+      .sendForm('service_9425fyu', 'template_5zufahy', form.current, {
+        publicKey: '6YD6xJABYsGImcnen',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          form.current.reset();
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
   };
-
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="nombre">Nombre:</label>
-      <input
-        type="text"
-        id="nombre"
-        name="nombre"
-        value={formData.nombre}
-        onChange={handleChange}
-        required
-      />
-
-      <label htmlFor="email">Correo Electrónico:</label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        value={formData.email}
-        onChange={handleChange}
-        required
-      />
-
-      <label htmlFor="mensaje">Mensaje:</label>
-      <textarea
-        id="mensaje"
-        name="mensaje"
-        rows={4}
-        value={formData.mensaje}
-        onChange={handleChange}
-        required
-      ></textarea>
-
-      <button type="submit">Enviar</button>
+    <form className='formulario-c' ref={form} onSubmit={sendEmail}>
+      <label>Nombre</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Mensaje</label>
+      <textarea name="message" />
+      <input className='enviar' type="submit" value="Enviar" />
     </form>
-  );
-};
-
+  )
+}
 export default Formulario;

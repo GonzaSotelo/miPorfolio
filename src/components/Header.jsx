@@ -25,13 +25,13 @@ export const Header = () => {
                 Home
               </Link>
               <Link to="/about" className="menu-item" onClick={() => setMenuVisible(false)}>
-                About
+                Sobre Mi
               </Link>
               <Link to="/projects" className="menu-item" onClick={() => setMenuVisible(false)}>
-                Projects
+                Proyectos
               </Link>
               <Link to="/contact" className="menu-item" onClick={() => setMenuVisible(false)}>
-                Contact
+                Contacto
               </Link>
             </nav>
           )}

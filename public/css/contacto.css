@@ -77,12 +77,15 @@
     text-align: center;
 }
 
-form {
+.formulario-c {
     display: flex;
     flex-direction: column;
 }
+.formulario-c label {
 
-input {
+}
+
+.formulario-c input {
 
     margin-left: 2.5em;
 
@@ -93,23 +96,20 @@ input {
     height: 1.5em;
 }
 
-textarea {
+.formulario-c textarea {
     margin-left: 2.5em;
     border-radius: 7px;
     width: 23em;
     height: 4em;
 }
 
-button {
+.enviar {
     margin: 1em 0 0 11em;
     border-radius: 7px;
     width: 6em;
     height: 2em;
 }
 
-.bgAnimation {
-    height: 102vh;
-}
 
 
 @media (min-width: 480px) {

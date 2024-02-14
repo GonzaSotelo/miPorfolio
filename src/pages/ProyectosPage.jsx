@@ -1,3 +1,4 @@
+import { CardsProyectos } from "../components/Cards";
 import { Header } from "../components/Header";
 
 
@@ -15,9 +16,7 @@ export const ProyectosPage = () => {
 <h2 className="h2-proyectos" > Mis Proyectos</h2>
 
 <div className="fila-1">
-  <div className="contenedor-proyec"> 
-
-  </div>
+<CardsProyectos/>
    
 </div>
 

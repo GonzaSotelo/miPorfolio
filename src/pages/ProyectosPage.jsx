@@ -14,7 +14,10 @@ export const ProyectosPage = () => {
 
 <h2 className="h2-proyectos" > Mis Proyectos</h2>
 
-<div>
+<div className="fila-1">
+  <div className="contenedor-proyec"> 
+
+  </div>
    
 </div>
 

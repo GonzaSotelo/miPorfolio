@@ -35,6 +35,20 @@ export const Header = () => {
               </Link>
             </nav>
           )}
+          <nav className="menu2">
+              <Link to="/" className="menu-item2" onClick={() => setMenuVisible(false)}>
+                Home
+              </Link>
+              <Link to="/about" className="menu-item2" onClick={() => setMenuVisible(false)}>
+                Sobre Mi
+              </Link>
+              <Link to="/projects" className="menu-item2" onClick={() => setMenuVisible(false)}>
+                Proyectos
+              </Link>
+              <Link to="/contact" className="menu-item2" onClick={() => setMenuVisible(false)}>
+                Contacto
+              </Link>
+            </nav>
         </div>
       </div>
     </header>

@@ -65,6 +65,43 @@ header {
         border-radius: 7px 7px 37px 37px;
     }
 
+    @media (min-width: 1200px){
+
+       
+        
+        
+        .imagen-logo img {
+            max-width: 5em;
+            position: relative;
+            margin-left: -30em;
+            z-index: 20;
+        }
+        
+        .menu-hambur i {
+       display: none;
+        }
+        .menu2 {
+            background-color: rgb(135 255 255 / 32%);
+            position: absolute;
+            margin: 19px 0px 0px -37em;
+            height: 3em;
+            width: 64em;
+            z-index: 50;
+            display: flex;
+            border-radius: 37px 37px 37px 37px;
+            justify-content: space-evenly;
+        }
+        .menu-item2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-family: monospace;
+            font-size: 22px;
+            color: #ffffff;
+            padding: 0.2em;
+        }
+    }
 
 
 

@@ -135,15 +135,17 @@
 
     .contacto-celular {}
 
-    .formulario-contacto {}
+    .formulario-contacto {display: flex;}
 
-    .formulario-contacto h2 {}
+    .formulario-contacto h2 {
+    margin: 21px 0 0 3px;
+}
 
-    form {}
+    .formulario-c {}
 
-    input {}
+    .formulario-c {}
 
-    textarea {}
+    .formulario-c textarea {}
 
     button {}
 

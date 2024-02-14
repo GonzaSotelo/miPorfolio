@@ -39,6 +39,14 @@ header {
     color: #ffffff;
     padding: 0.2em;
 }
+.menu-item2{
+    display: none;
+}
+.menu2{
+    display: none;
+}
+
+
 @media (min-width: 480px) { 
 
     .imagen-logo img {

@@ -1,11 +1,13 @@
+import { Header } from "../components/Header";
 
-import { Cards } from "../components/Cards"
+
 
 
 
 export const ProyectosPage = () => {
   return (
     <>
+    <Header/>
      <div className="contenedor-modal4">
 
 <div className="modal-difuminado4">
@@ -13,7 +15,7 @@ export const ProyectosPage = () => {
 <h2 className="h2-proyectos" > Mis Proyectos</h2>
 
 <div>
-    <Cards/>
+   
 </div>
 
 </div>
@@ -21,3 +23,4 @@ export const ProyectosPage = () => {
     </>
   )
 }
+export default ProyectosPage;

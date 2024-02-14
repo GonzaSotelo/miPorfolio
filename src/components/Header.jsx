@@ -1,5 +1,5 @@
-import { useState } from 'react';
-
+import  { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -7,31 +7,36 @@ export const Header = () => {
   const toggleMenu = () => {
     setMenuVisible(!menuVisible);
   };
+
   return (
-    
-        <header className="header">
-<div className="imagen-logo">
-    <img src="./../../img/logo-naranja.png" alt="" />
-</div>
-
-<div className="menu-hambur">
-<div className="navbar">
-      <div className="menu-icon" onClick={toggleMenu}>
-      <i className="fa-solid fa-bars"></i>
+    <header className="header">
+      <div className="imagen-logo">
+        <img src="./../../img/logo-naranja.png" alt="" />
       </div>
-      {menuVisible && (
-        <div className="menu">
-          <div className="menu-item">Home</div>
-          <div className="menu-item">Sobre Mi</div>
-          <div className="menu-item">Mis Proyectos</div>
-          <div className="menu-item">Contacto</div>
+
+      <div className="menu-hambur">
+        <div className="navbar">
+          <div className="menu-icon" onClick={toggleMenu}>
+            <i className="fa-solid fa-bars"></i>
+          </div>
+          {menuVisible && (
+            <nav className="menu">
+              <Link to="/" className="menu-item" onClick={() => setMenuVisible(false)}>
+                Home
+              </Link>
+              <Link to="/about" className="menu-item" onClick={() => setMenuVisible(false)}>
+                About
+              </Link>
+              <Link to="/projects" className="menu-item" onClick={() => setMenuVisible(false)}>
+                Projects
+              </Link>
+              <Link to="/contact" className="menu-item" onClick={() => setMenuVisible(false)}>
+                Contact
+              </Link>
+            </nav>
+          )}
         </div>
-      )}
-    </div>
-
-</div>
-        </header>
-
-    
-  )
-}
+      </div>
+    </header>
+  );
+};

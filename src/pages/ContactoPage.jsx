@@ -1,11 +1,12 @@
 import Formulario from "../components/Formulario"
+import { Header } from "../components/Header";
 
 
 export const ContactoPage = () => {
   return (
     <div>
 
-
+<Header/>
 
 <div className="contenedor-modal2">
 
@@ -65,3 +66,4 @@ Puedes enviarme un mensaje directamente a través del formulario a continuación
     </div>
   )
 }
+export default ContactoPage;

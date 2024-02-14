@@ -32,9 +32,12 @@ header {
     border-radius: 7px 7px 37px 37px;
 }
 .menu-item {
-    text-align: center;
-    padding: 1% 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     font-family: monospace;
     font-size: 15px;
     color: #ffffff;
+    padding: 0.2em;
 }

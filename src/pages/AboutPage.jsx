@@ -1,8 +1,10 @@
+import { Header } from "../components/Header";
 
 
 export const AboutPage = () => {
   return (
    <>
+   <Header/>
    <div className="contenedor-modal3">
 
 <div className="modal-difuminado3">
@@ -37,3 +39,4 @@ export const AboutPage = () => {
    </>
   )
 }
+export default AboutPage;

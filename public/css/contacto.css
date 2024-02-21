@@ -53,18 +53,13 @@
 
 .formulario-contacto {
     color: #fff;
-
     font-family: monospace;
-
     font-size: 16px;
-
     text-align: center;
-
     padding: 1em;
-
     background-color: rgba(4, 4, 17, 0.733);
-
-    padding-bottom: 1em;
+    /* padding-bottom: 1em; */
+    margin: 0em 0em;
 }
 
 .h2-contacto-form {
@@ -80,20 +75,18 @@
 .formulario-c {
     display: flex;
     flex-direction: column;
+    margin: 1em -1em;
 }
 .formulario-c label {
-
+padding: 2%;
 }
 
 .formulario-c input {
-
-    margin-left: 2.5em;
-
-    border-radius: 7px;
-
-    width: 23em;
-
-    height: 1.5em;
+margin-left: 2.5em;
+border-radius: 7px;
+width: 23em;
+padding: 1%;
+/* height: 1.5em; */
 }
 
 .formulario-c textarea {
@@ -101,6 +94,7 @@
     border-radius: 7px;
     width: 23em;
     height: 4em;
+    padding: 1%;
 }
 
 .enviar {
@@ -118,37 +112,40 @@
     .contenedor-modal2 {
         position: absolute;
         width: 95%;
-        height: 50em;
+        height: 41.6em;
         background-color: rgba(56, 56, 56, 0.8);
-        margin: 6em 0 0 0.6em;
+        /* margin: 6em 0 0 0.6em; */
     }
 
-    .modal-difuminado2 {}
 
-    .modal-difuminado2 p {}
-
-    .redes-contacto {}
-
-    .contacto-git {}
-
-    .modal-difuminado2 h2 {}
-
-    .contacto-celular {}
 
     .formulario-contacto {display: flex;}
 
     .formulario-contacto h2 {
     margin: 21px 0 0 3px;
 }
-
-    .formulario-c {}
-
-    .formulario-c {}
-
-    .formulario-c textarea {}
-
-    button {}
-
-    .bgAnimation {}
-
+}
+@media (min-width: 1020px) {
+    
+    .contenedor-modal2{
+        display: flex;
+        height: 58vh;
+        width: 90%;
+    }
+    .formulario-contacto {
+        display: block;
+        height: 54vh;
+        width: 100%;
+        margin: 0% 0% 0% 0%;
+    }
+    .modal-difuminado2{
+        
+width: 112%;
+        
+justify-content: center;
+    }
+    .formulario-c{
+        align-items: center;
+        /* margin: 8% 0% 0% 0%; */
+    }
 }

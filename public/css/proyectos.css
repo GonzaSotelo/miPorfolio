@@ -47,7 +47,14 @@
 }
 .botones-cards button {
     margin: 0.8em 0.8em 0px 0.5em;
-    background-color:rgba(36, 93, 93, 0.5);
+    background-color: rgb(36 113 113);
     color: #fff;
-    padding: 1px;
+    padding: 0.6em;
+    border-radius: 2% 25% 2% 26%;
+}
+@media (min-width: 480px) { 
+    .contenedor-modal4 {
+   /* display: flex; */
+   width: 95%;
+   }
 }

@@ -73,7 +73,7 @@ header {
         border-radius: 7px 7px 37px 37px;
     }
 
-    @media (min-width: 1200px){
+    @media (min-width: 1080px){
 
        
         
@@ -91,12 +91,12 @@ header {
         .menu2 {
             background-color: rgb(135 255 255 / 32%);
             position: absolute;
-            margin: 19px 0px 0px -37em;
+            margin: 19px 0px 0px -28.7em;
             height: 3em;
             width: 64em;
             z-index: 50;
             display: flex;
-            border-radius: 37px 37px 37px 37px;
+            border-radius: 37px 0px 0px 37px;
             justify-content: space-evenly;
         }
         .menu-item2 {
